@@ -15,22 +15,22 @@ class Game {
 	}
 
     preload(){
-        this.backgroundImage = loadImage("../assets/images/cemetary-night.jpg")
+        this.backgroundImage = loadImage("assetsimagescemetary-night.jpg")
 
         
-        this.moveUpPlayer = loadGif("../assets/images/player/walking-up-unscreen.gif")
-        this.player.playerImage = loadImage("../assets/images/player/standing.png")
-        this.moveDownPlayer = loadGif("../assets/images/player/walking-down-unscreen.gif")
-        this.gameOverImage = loadImage("../assets/images/BloodOverlay-game-over.png")
-        this.bulletImage = loadImage("../assets/images/bullet-g7b8e6e7b8_1280.png")
-        this.skullImage = loadImage("../assets/images/png-transparent-embroidered-patch-totenkopf-applique-skull-biker-totenkopf-white-bone-totenkopf-removebg-preview.png")
+        this.moveUpPlayer = loadGif("assetsimagesplayerwalking-up-unscreen.gif")
+        this.player.playerImage = loadImage("assetsimagesplayerstanding.png")
+        this.moveDownPlayer = loadGif("assetsimagesplayerwalking-down-unscreen.gif")
+        this.gameOverImage = loadImage("assetsimagesBloodOverlay-game-over.png")
+        this.bulletImage = loadImage("assetsimagesbullet-g7b8e6e7b8_1280.png")
+        this.skullImage = loadImage("assetsimagespng-transparent-embroidered-patch-totenkopf-applique-skull-biker-totenkopf-white-bone-totenkopf-removebg-preview.png")
        
         this.zombiesImages = [
-			{ src: loadGif("../assets/images/zombies/pink-hair-walking-unscreen.gif")},
-			{ src: loadGif("../assets/images/zombies/normal-walking-unscreen.gif")},
-			{ src: loadGif("../assets/images/zombies/normal-zombie-walking-unscreen.gif")},
-			{ src: loadGif("../assets/images/zombies/girl-43-unscreen.gif")},
-			{ src: loadGif("../assets/images/zombies/bald-walking-unscreen.gif")}
+			{ src: loadGif("assetsimageszombiespink-hair-walking-unscreen.gif")},
+			{ src: loadGif("assetsimageszombiesnormal-walking-unscreen.gif")},
+			{ src: loadGif("assetsimageszombiesnormal-zombie-walking-unscreen.gif")},
+			{ src: loadGif("assetsimageszombiesgirl-43-unscreen.gif")},
+			{ src: loadGif("assetsimageszombiesbald-walking-unscreen.gif")}
 		]
 
     }
