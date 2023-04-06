@@ -1,0 +1,117 @@
+@font-face {
+    font-family: another-danger;
+    src: url(./fonts/Another\ Danger\ Slanted\ -\ Demo.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    background-image: url("./assets/images/vecteezy_cemetery-landscape-at-night-tombstone-with-rip_21909572.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#page2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startScreen {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: another-danger;
+    top: 40%;
+    left: 35%;
+    margin-top: -5px;
+    position: absolute;
+    color: white;
+    font-size: 70px;
+}
+
+#startButton {
+    width: 300px;
+    height: 75px;
+    /*margin: 600px 500px 25px;*/
+    margin-top: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: purple;
+    font-size: 20px;
+    font-family: another-danger;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 20px; 
+    color: white;
+    /*margin: 200px 400px 25px;*/
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+#round {
+    font-family: another-danger;
+    font-size: 20px;
+}
+
+.gameScreen {
+    /*height: 1000px;*/
+    width: cover;
+}
+
+h3 {
+    font-family: another-danger;
+    top: 10%;
+    left: 35%;
+    margin-top: -40px;
+    position: absolute;
+    color: white;
+    font-size: 70px;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    margin-top: 170px;
+    
+}
+
+  .player {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+#score {
+    font-family: another-danger;
+    top: 30%;
+    left: 92%;
+    margin-top: -40px;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+}
+
+#score span {
+    font-family: Arial;
+}
