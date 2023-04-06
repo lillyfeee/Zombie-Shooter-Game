@@ -26,11 +26,11 @@ class Game {
         this.skullImage = loadImage("./assets/images/png-transparent-embroidered-patch-totenkopf-applique-skull-biker-totenkopf-white-bone-totenkopf-removebg-preview.png")
        
         this.zombiesImages = [
-			{ src: loadGif("./assets/images/zombies/pink-hair-walking-unscreen.gif")},
-			{ src: loadGif("./assets/images/zombies/normal-walking-unscreen.gif")},
-			{ src: loadGif("./assets/images/zombies/normal-zombie-walking-unscreen.gif")},
-			{ src: loadGif("./assets/images/zombies/girl-43-unscreen.gif")},
-			{ src: loadGif("./assets/images/zombies/bald-walking-unscreen.gif")}
+			{ src: loadGif("../assets/images/pink-hair-walking-unscreen.gif")},
+			{ src: loadGif("../assets/images/normal-walking-unscreen.gif")},
+			{ src: loadGif("../assets/images/normal-zombie-walking-unscreen.gif")},
+			{ src: loadGif("../assets/images/girl-43-unscreen.gif")},
+			{ src: loadGif("../assets/images/bald-walking-unscreen.gif")}
 		]
 
     }
